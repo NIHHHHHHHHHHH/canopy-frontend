@@ -204,7 +204,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="w-full sticky top-0 z-50">
+    <header className="w-full relative z-50">
       <div className="max-w-7xl mx-auto px-4 h-18 flex items-center justify-between">
 
         <a href="#" className="flex items-center shrink-0 mt-5">
