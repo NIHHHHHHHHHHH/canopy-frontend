@@ -1,10 +1,13 @@
 
-export default function home(){
-return(
-  <div>
- <h1 className="text-center text-4xl text-amber-300">Olive</h1>
- <p className="text-center text-xl text-amber-200"> The Safest way to shop for groceries</p>
- </div>
-);
+import Navbar from "@/components/Navbar";
 
+
+export default function Home() {
+  return (
+    <main className="bg-bg-page min-h-screen flex justify-center px-4 py-8">
+      <div className="bg-bg-container w-full max-w-7xl rounded-3xl border border-border-light shadow-[0_0_40px_rgba(0,0,0,0.03)]">
+        <Navbar />
+      </div>
+    </main>
+  );
 }

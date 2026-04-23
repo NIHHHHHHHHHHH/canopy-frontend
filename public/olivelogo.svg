@@ -1,0 +1,18 @@
+<svg width="48" height="44" viewBox="0 0 48 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- short stem -->
+    <path d="M24 8 C24 6 25 4.5 27 4" stroke="#5a7a2a" stroke-width="1.8" stroke-linecap="round" fill="none" />
+    <!-- small leaf -->
+    <ellipse cx="28.5" cy="3.5" rx="3.5" ry="1.8" fill="#7ab030" transform="rotate(-35 28.5 3.5)" />
+    <!-- olive body — wider than tall -->
+    <ellipse cx="24" cy="26" rx="20" ry="17" fill="#a8bf3a" />
+    <!-- sheen -->
+    <ellipse cx="17" cy="19" rx="5" ry="3" fill="white" opacity="0.18" transform="rotate(-20 17 19)" />
+    <!-- left eye -->
+    <circle cx="18" cy="25" r="2.2" fill="#3a4a1a" />
+    <circle cx="18.9" cy="24.1" r="0.65" fill="white" />
+    <!-- right eye -->
+    <circle cx="30" cy="25" r="2.2" fill="#3a4a1a" />
+    <circle cx="30.9" cy="24.1" r="0.65" fill="white" />
+    <!-- smile -->
+    <path d="M18 31 Q24 36.5 30 31" stroke="#3a4a1a" stroke-width="1.8" stroke-linecap="round" fill="none" />
+</svg>
