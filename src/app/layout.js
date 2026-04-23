@@ -1,27 +1,27 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Oswald } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-body",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const bebasNeue = Oswald({
+  variable: "--font-display",
   subsets: ["latin"],
+  weight: "400",
+  display: "swap",
 });
 
 export const metadata = {
   title: "Olive",
-  description: "The Safest way to shop for groceries",
+  description: "The Safest Way to Shop for Groceries",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
+    <html lang="en" className={`${inter.variable} ${bebasNeue.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
