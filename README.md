@@ -1,4 +1,4 @@
-#  Olive — Food Scanner Landing Page
+#  Olive - Food Scanner Landing Page
 
 🔗 **Live Demo:** [https://canopy-frontend-seven.vercel.app](https://canopy-frontend-seven.vercel.app)
 
@@ -9,7 +9,7 @@ A modern Next.js landing page for **Olive**, a grocery scanning app that helps f
 - **Next.js** (App Router)
 - **Tailwind CSS v4** with custom design tokens
 - **Lucide React** for icons
-- **Google Fonts** — Oswald (display) + Inter (body)
+- **Google Fonts** - Oswald (display) + Inter (body)
 
 ## Project Structure
 
@@ -25,10 +25,10 @@ A modern Next.js landing page for **Olive**, a grocery scanning app that helps f
 
 ## Key Features
 
-- **Animated phone mockup** — auto-rotating product card carousel with slide transitions
-- **Mega menu dropdowns** — Solutions, Blog, and Food category nav with hover interactions
-- **Responsive design** — mobile drawer + desktop nav
-- **Custom design system** — CSS variables for colors, typography, and spacing via `@theme`
+- **Animated phone mockup** - auto-rotating product card carousel with slide transitions
+- **Mega menu dropdowns** - Solutions, Blog, and Food category nav with hover interactions
+- **Responsive design** - mobile drawer + desktop nav
+- **Custom design system** - CSS variables for colors, typography, and spacing via `@theme`
 
 ## Getting Started
 
