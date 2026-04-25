@@ -2,28 +2,38 @@
 
 @theme {
   /* background */
-  --color-bg-page:      #ffffff;
-  --color-bg-container:  #f5faf6;
-  --color-bg-navbar:    transparent;
+  --color-bg-page: #ffffff;
+  --color-bg-container: #f5faf6;
+  --color-bg-navbar: transparent;
+  --color-bg-light: #e8ebe9;
 
   /* primary */
   --color-brand-primary: #afba41;
 
   /* text */
   --color-text-headline: #1e3510;
-  --color-text-nav:      #2d4a1e;
-  --color-text-muted:    #7a8a6a;
+  --color-text-nav: #2d4a1e;
+  --color-text-muted: #7a8a6a;
 
  /* border */
-  --color-border-light:  #dde4d8;
+  --color-border-light:#d0d4d1;
 
    /* button */
   --color-btn-primary-text: #f0f4ee;
+
+  /* black */
+   --color-black: #000000;   
 
   /* fonts */
   --font-display: "Oswald", sans-serif;
   --font-body: "Inter", "Inter Fallback", sans-serif;
 
   /* border-radius */
-  --radius-btn:             9999px;
+  --radius-btn:9999px;
+}
+
+@layer utilities {
+  .shadow-card-top {
+    box-shadow: 0 -4px 24px rgba(0,0,0,0.07);
+  }
 }

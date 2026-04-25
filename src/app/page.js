@@ -1,5 +1,6 @@
 
 import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="bg-bg-page min-h-screen flex justify-center px-4 py-8">
       <div className="bg-bg-container w-full max-w-7xl rounded-3xl border border-border-light shadow-[0_0_40px_rgba(0,0,0,0.03)]">
         <Navbar />
+        <HeroSection />
       </div>
     </main>
   );
